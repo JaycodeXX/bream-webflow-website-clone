@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --blue: #050038;
+    --white: #fbfbfb;
+    --btn: #2e42ff;
+    --lighter: #beebfc;
+}
+section {
+    padding: 2% 4%;
+}
+.hero{
+    width: 100%;
+    background-color: var(--blue);
+    color: var(--white);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link_item{
+    color: var(--white);
+    margin: 0 15px;
+}
+.cart{
+    color: var(--lighter);
+    margin-right: 10px;
+}
+.hero_content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+    margin: 0 auto;
+}
+h1{
+    font-size: 70px;
+    line-height: 84px;
+}
+.hero_content p{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px 0;
+}
+.hero_img{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background: var(--btn);
+    color: var(--white);
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+a:hover{
+    color: #55DF63;
+}
+.btn:hover{
+    background-color: #55DF63;
+    color: #1a1a1a;
+}
+/* ############ Clients ############### */
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.clients h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+/* ############ About ############## */
+.abt_h2{
+    text-align: center;
+    font-size: 48px;
+    line-height: 67px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+.abt_p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(26, 26, 26, 0.8);
+    margin-top: 20px;
+}
+
+.about{
+    width: 100%;
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+.img1{
+    background-image: url(./assets/aboutImg/about1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background-image: url(./assets/aboutImg/about4.webp);
+    background-position: center;
+    background-size: cover;
+}
+.img3{
+    background-image: url(./assets/aboutImg/about2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.label{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.label h2{
+    font-size: 48px;
+    line-height: 67px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.label p{
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(26, 26, 26, 0.8);
+}
+.text-container h3{
+    font-size: 28px;
+    line-height: 39px;
+    color: #1a1a1a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.text-container p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.abt_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+/* ############## Testimonial ############ */
+.testimonials{
+    width: 100%;
+    height: 95vh;
+    margin: 100px 0;
+    background-color: #050038;
+    
+}
